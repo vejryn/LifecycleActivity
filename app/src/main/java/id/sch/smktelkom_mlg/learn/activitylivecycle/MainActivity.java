@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Log.d(TAG, "onCreate: ");
 
+        mediaPlayer = MediaPlayer.create(this, R.raw.song);
 
 
     }
